@@ -1,6 +1,6 @@
 from django.test import TestCase
+from .models import Category
 
-from .models import Category, Product
 
 # Create your tests here.
 class TestCategoriesModel(TestCase):
