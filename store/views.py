@@ -3,14 +3,8 @@ from .models import Category, Product
 
 
 # Create your views here.
-def categories(request):
-    return {
-        'categories': Category.objects.all()
-    }
-
-
-def all_products(request):
-    products = Product.objects.all()
+def products(request):
+    products = Product.objects.filter(is_active=True)
     return render(request, 'home.html', {'products': products})
 
 
