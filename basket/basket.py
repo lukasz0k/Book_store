@@ -83,11 +83,6 @@ class Basket():
 
 
 """ 
-Code in this file has been inspried/reworked from other known works. Plese ensure that
-the License below is included in any of your work that is directly copied from
-this source file.
-
-
 MIT License
 
 Copyright (c) 2019 Packt
